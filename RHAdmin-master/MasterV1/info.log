@@ -1,0 +1,16 @@
+DEBUG:root:Failed to Create User test01 RHA test01@rha.gatech.edu
+DEBUG:root:Failed to Create User test02 RHA test02@rha.gatech.edu
+DEBUG:root:Failed to Create User test01 RHA test01@rha.gatech.edu Error Message: method() takes exactly 1 argument (2 given)
+DEBUG:root:Failed to Create User test02 RHA test02@rha.gatech.edu Error Message: method() takes exactly 1 argument (2 given)
+DEBUG:root:Failed to Create User test01 RHA test01@rha.gatech.edu Error Message: <HttpError 400 when requesting https://www.googleapis.com/admin/directory/v1/users?alt=json returned "Invalid Given/Family Name: FamilyName">
+INFO:googleapiclient.discovery:URL being requested: POST https://www.googleapis.com/admin/directory/v1/users?alt=json
+DEBUG:root:Failed to Create User test02 RHA test02@rha.gatech.edu Error Message: <HttpError 400 when requesting https://www.googleapis.com/admin/directory/v1/users?alt=json returned "Invalid Given/Family Name: FamilyName">
+DEBUG:root:Failed to Create User A RHA test01@rha.gatech.edu Error Message: <HttpError 400 when requesting https://www.googleapis.com/admin/directory/v1/users?alt=json returned "Invalid Given/Family Name: FamilyName">
+INFO:googleapiclient.discovery:URL being requested: POST https://www.googleapis.com/admin/directory/v1/users?alt=json
+DEBUG:root:Failed to Create User B RHA test02@rha.gatech.edu Error Message: <HttpError 400 when requesting https://www.googleapis.com/admin/directory/v1/users?alt=json returned "Invalid Given/Family Name: FamilyName">
+DEBUG:root:Failed to Create User A RHA test01@rha.gatech.edu Error Message: <HttpError 400 when requesting https://www.googleapis.com/admin/directory/v1/users?alt=json returned "Invalid Given/Family Name: FamilyName">
+INFO:googleapiclient.discovery:URL being requested: POST https://www.googleapis.com/admin/directory/v1/users?alt=json
+DEBUG:root:Failed to Create User B RHA test02@rha.gatech.edu Error Message: <HttpError 400 when requesting https://www.googleapis.com/admin/directory/v1/users?alt=json returned "Invalid Given/Family Name: FamilyName">
+INFO:root:Successfully Created User A RHA test01@rha.gatech.edu
+INFO:googleapiclient.discovery:URL being requested: POST https://www.googleapis.com/admin/directory/v1/users?alt=json
+INFO:root:Successfully Created User B RHA test02@rha.gatech.edu

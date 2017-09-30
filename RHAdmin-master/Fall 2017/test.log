@@ -1,0 +1,7 @@
+DEBUG:root:test1
+INFO:root:test2
+DEBUG:root:test1
+INFO:root:test2
+INFO:root:test2
+DEBUG:root:test1345
+INFO:root:test2
